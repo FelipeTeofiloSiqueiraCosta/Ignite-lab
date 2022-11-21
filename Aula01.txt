@@ -1,0 +1,50 @@
+
+Design System (Figma)
+    - Convenção criada dentro de uma empresa, onde os projetos seguem uma linha,
+      os projetos se parecem, tem características semelhantes
+    - Vamos utilizar figma para criar nosso Design System
+    - Criando formulário de login
+        - Clique com a tecla 'A' e escolha a opção de desktop
+        - Colocar elementos no mesmo grupo
+            - Seleciona os elementos e aperta ctrl+g
+        - Auto layout
+            - funciona como se fosse um display flex
+        - Adicionando icones
+            - clica em algum elemento ou frame com o botao direito
+            - vai em plugins
+            - find more plugins
+            - procurar por phosphor icons
+        - Almentando e diminuindo icones
+            - aperte a tecla já com o item selecionado para diminuir o tamanho dele
+        - Vendo distância entre elementos
+            - aperte a tecla Alt
+            - clique em um elemento
+            - passe por cima dos elementos
+            - com a tecla alt vc pode mover/ almentar a distancia, com as setas
+        - Copiando elementos
+            - ctrl+d
+        - World vector logo
+            - site de logo marcas
+    - Biblioteca de cores
+        - clida no desktop
+        - vai em selecion colors
+            - la vi ter as cores que vc utilizou na sua pagina de login
+        - passa o mouse em cima de uma cor e vai nos 4 pontinhos que vai aparecer
+        - clica la e vai no +
+        - da um nome pra essa cor
+    - Usando pluguins do figma pra criar uma style guide de cores
+        - clica com botão direito fora do desktop vai em pluguins
+        - find more pluguins
+        - color style guide
+        - clique em run e tcharã.... criou pra gente um style guide de cores
+    - Criando components no figma
+        - clica em um component
+        - vai em create component la no canto superior central
+        - depois no menu lateral direito vai ter uma área de properties
+        - clica no + dela e vai em text
+        - name: text example
+        - 
+    - depois clica em outro elemento vai em content e faz essa conexão
+    - Criando variantes de compoenentes
+        - clica no compoenente adiciona uma propriedade variante
+        - 

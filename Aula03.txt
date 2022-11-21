@@ -1,0 +1,13 @@
+Deploy do storybook
+    -storybook deployer
+        - npm i @storybook/storybook-deployer --save-dev
+        - package.json
+            - "build-storybook": "build-storybook" 
+                - (cria uma pasta do storybook que tem todo o conteúdo da nossa documentação
+                  do storybook)
+                - colocar a pasta no gitignore
+            - "deploy-storybook": "storybook-to-ghpages"
+    - Criar pasta: .github/workflows/deploy-docs.yml
+    - alterar .storybook/main.js
+        - line 15
+    

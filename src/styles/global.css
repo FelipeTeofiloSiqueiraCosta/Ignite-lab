@@ -1,0 +1,4 @@
+/*importando os conjuntos de estilizações do tailwind*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

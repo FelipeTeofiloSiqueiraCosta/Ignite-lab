@@ -1,0 +1,33 @@
+Criando o projeto
+    - Vamos utilisar o vite
+    - npm create vite@latest
+        -  Esse comando vai criar a estrutura de um projeto, sem as dependências
+           pra deixar agente selecionar qual gerenciador de pacotes iremos utilizar
+        - instalando as dependências: npm i
+    - deletar assets, .css, deixar o app.ts vazio
+    - vamos utilizar o tailwind
+    - postcss (fica basicamente lendo nossos arquivos e transformando em css pro
+               tailwind funcionar na nossa pagina)
+    - autoprefixer
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p (-p pra criar o arquivo de configuração do postcss também)
+    - Iniciando processo de desenvolvimento
+        -> criar pasta styles
+        -> criar global.css dentro de styles
+        -> Instalar extensão do tailwindcss e a do postcss
+        -> fazer as importações no global.css
+        -> improtar o global.css no app.tsx
+    - Pronto Configurações básicas feitas
+
+    - Configurando story book
+        -> npx sb init --builder @storybook/builder-vite --use-npm
+        -> coloque N para a pergunta de rodar um npm7
+        -> npm run storybook
+            -> caso der erro:
+                -> o script tem que estar assim: 
+                    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6007",
+        -> instalar npm install --save clsx (para classes condicionais)
+        -> instalar npm install @radix-ui/react-popover@latest -E
+    -> Instalar npm install phosphor-react
+    
+
