@@ -10,4 +10,8 @@ Deploy do storybook
     - Criar pasta: .github/workflows/deploy-docs.yml
     - alterar .storybook/main.js
         - line 15
-    
+    - retirando NODE_OPTIONS=--openssl-legacy-provider dos scripts
+
+Criando a interface
+
+    -
