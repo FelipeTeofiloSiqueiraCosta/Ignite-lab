@@ -1,0 +1,2 @@
+import{C as t}from"./Checkbox.c4e555f1.js";import{b as r}from"./jsx-runtime.0230560f.js";import"./index.module.67207b79.js";import"./index.2becfbf7.js";import"./iframe.5a3b22f8.js";import"./IconBase.esm.6d088231.js";const i={title:"Components/Checkbox",component:t,args:{},decorators:[o=>r("div",{className:"flex gap-1",children:[o(),"Hello World"]})]},l={},n=["Default"];export{l as Default,n as __namedExportsOrder,i as default};
+//# sourceMappingURL=Checkbox.stories.cccac8d2.js.map
