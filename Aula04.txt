@@ -1,0 +1,11 @@
+https://storybook.js.org/docs/react/writing-tests/interaction-testing
+
+    npm install @storybook/testing-library @storybook/jest @storybook/addon-interactions @storybook/test-runner --save-dev
+
+instalando axios
+
+https://mswjs.io/ ou https://github.com/mswjs/msw-storybook-addon
+    criando um servidor rapido pra teste
+    npm i msw msw-storybook-addon -D
+    npm install msw --save-dev
+    npx msw init public/
